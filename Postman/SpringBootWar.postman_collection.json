@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "65c9c056-03c2-480f-af9b-a0717ffdfcb6",
+		"name": "SpringBootWar",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "AWS Cloud : http://ec2-3-9-23-72.eu-west-2.compute.amazonaws.com:8080/springBootWar/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://ec2-3-9-23-72.eu-west-2.compute.amazonaws.com:8080/springBootWar/",
+					"protocol": "http",
+					"host": [
+						"ec2-3-9-23-72",
+						"eu-west-2",
+						"compute",
+						"amazonaws",
+						"com"
+					],
+					"port": "8080",
+					"path": [
+						"springBootWar",
+						""
+					]
+				},
+				"description": "This is Spring Boot without Tomcat and deploy in AWS EC2 installed Tomcat 8.5.55\r\n\r\nPlease check the URI of the API , it is not localhost, it is host (Public DNS Name of the EC2 instance of the AWS)\r\n\r\nThis is deploy as WAR file and also project has not in built Tomcat. \r\n\r\nTomcat available here:http://ec2-3-9-23-72.eu-west-2.compute.amazonaws.com:8080/manager/html/upload?org.apache.catalina.filters.CSRF_NONCE=4C0413F7C2E09665491F1FA90C6529C1"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
