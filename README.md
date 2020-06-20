@@ -1,13 +1,17 @@
 # SpringBootAsWar
-### This project created using the Spring Boot without Tomcat and deploy in the AWS EC2 instance of Tomcat in the cloud
+### This project created using the Spring Boot without Tomcat and deploy in the AWS EC2 instance of Tomcat in the cloud. 
+### Tomcat is runing on the EC2.
+### To deploy the WAR file, Open the Tomcat Management Console and then using theTomcat GUI, upload the WAR file and deploy it. 
 
-## Do not run from command prompt, it is using Servlet to make it deployable in external AWS - EC2 -Tomcat
+## Do not run from command prompt (No Spring Boot main() method class), it is using Servlet to make it deployable in external AWS - EC2 -Tomcat
 
 ### The end point URL show the EC2-Tomcat URL (Not local) after deploying in the external EC2 Tomcat 
 
 ## End Point: http://ec2-3-9-23-72.eu-west-2.compute.amazonaws.com:8080/springBootWar/
 
-# Key Points:
+## This project has no any database or databse interaction.
+
+### Key Git Commands:
 
  -------------- Git Commands -------------------------------
 
